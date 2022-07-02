@@ -27,3 +27,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Styling
+
+The styling of components in this app follows the method adopted at [This Article](https://alanbsmith.medium.com/structuring-our-styled-components-part-i-2bf21fa64b28)
+
