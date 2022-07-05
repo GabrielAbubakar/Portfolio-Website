@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext } from 'react'
 import Head from 'next/head'
 import GlobalStyle from '../styled/GlobalStyles.styled'
 import { ThemeProvider } from "styled-components";
-import { light, dark, blue, green, brown, pink, } from "../styled/theme/Theme.styled";
+import { light, dark, } from "../styled/theme/Theme.styled";
 
 
 
