@@ -1,14 +1,15 @@
 import type { NextPage } from 'next'
 import Layout from '../components/layout'
+import Intro from '../components/sections/Intro'
 
 const Home: NextPage = () => {
     return (
         <>
             <Layout>
 
-                <div>
-                    <h1>Home Page</h1>
-                </div>
+                {/* Intro section */}
+                <Intro />
+
             </Layout>
         </>
     )
