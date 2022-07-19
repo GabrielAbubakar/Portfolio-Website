@@ -14,6 +14,7 @@ export const dark = {
 export const light = {
     name: "light-theme",
     colors: {
-
+        background: '#ccc',
+        text: '#181818'
     }
 }
