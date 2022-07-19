@@ -1,21 +1,20 @@
 import React, { useContext } from 'react'
 import { ThemePreferenceContext } from '../../layout'
-import { blue, green, pink } from '../../styled/theme/Theme.styled'
+import { dark, light } from '../../styled/theme/Theme.styled'
+import Navbar from '../../navbar'
 
 const Intro: React.FunctionComponent = () => {
 
     const { handleThemeChange } = useContext(ThemePreferenceContext)
 
     return (
-        <div>
+        <>
+            <Navbar />
             <h1>Home Page</h1>
-            <button onClick={() => handleThemeChange(pink)}>
+            <button onClick={() => handleThemeChange(dark)}>
                 Click
             </button>
-            <button onClick={() => handleThemeChange(green)}>
-                Click
-            </button>
-        </div>
+        </>
     )
 }
 

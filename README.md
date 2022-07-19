@@ -31,3 +31,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The styling of components in this app follows the method adopted at [This Article](https://alanbsmith.medium.com/structuring-our-styled-components-part-i-2bf21fa64b28)
 
+
+## Structure of the folders
+The main directory of this project contains the following folders and serve the following functions:
+
+- /components - Contains the components of the project. Every non page level component can be found in the folder from navbars, to headers and buttons et cetera. 
+- /pages - Contains the page components of the project. The Home page and further pages will be contained in this folder. 
+- /public - Contains all of the assets used in the project. From images to icons et cetera
+
+The /components folder contains most of the files used in the project and is divided into:
+- /layout - 
+- /navbar - 
+- /sections - 
+- /styled -
+
