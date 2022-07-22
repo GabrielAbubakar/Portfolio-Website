@@ -10,7 +10,7 @@ const Intro: React.FunctionComponent = () => {
             <Navbar />
 
 
-            <StyledIntroName initial={{ opacity: 0 }} animate={{ opacity: .2, transition: { duration: 2, delay: 1 } }}>
+            <StyledIntroName initial={{ opacity: 0 }} animate={{ opacity: .2, transition: { duration: 4, delay: 2 } }}>
                 &#160;gab <br />
                 riel <br />
                 &#160;abu <br />

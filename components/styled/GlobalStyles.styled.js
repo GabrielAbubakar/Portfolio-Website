@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    font-family: sans-serif;
     color: ${(props) => props.theme.colors.bodyText};
     background-color: ${(props) => props.theme.colors.background};
     overflow: hidden;
