@@ -9,7 +9,7 @@ const Navbar: React.FunctionComponent = () => {
 
 
     return (
-        <StyledNavbar>
+        <StyledNavbar initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
             <p>Gabriel Abubakar.</p>
 
             <LinksDiv>

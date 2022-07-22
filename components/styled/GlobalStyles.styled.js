@@ -12,8 +12,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    color: ${(props) => props.theme.colors.bodyText};
     background-color: ${(props) => props.theme.colors.background};
-    transition: all .2s ease;
+    overflow: hidden;
   }
 `;
 
