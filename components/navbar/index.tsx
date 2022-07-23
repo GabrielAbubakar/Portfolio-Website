@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemePreferenceContext } from '../layout'
 import { dark, light } from '../styled/theme/Theme.styled'
-import StyledNavbar, { LinksDiv } from '../styled/blocks/navbar/Navbar.styled'
+import StyledNavbar, { LinksDiv } from './Navbar.styled'
 
 const Navbar: React.FunctionComponent = () => {
 
