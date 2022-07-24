@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { devices } from '../../styled/mediaqueries/device'
 
 
-const StyledIntroContainer = styled.section`
+const Container = styled.section`
     position: relative;
     height: 100vh;
     margin-bottom: 10rem;
@@ -11,7 +11,7 @@ const StyledIntroContainer = styled.section`
 
 `
 
-export const StyledIntroHeader = styled(motion.h1)`
+export const Header = styled(motion.h1)`
     color: ${(props) => props.theme.colors.headerText};
     position: absolute;
     bottom: 5rem;
@@ -44,7 +44,7 @@ export const StyledIntroHeader = styled(motion.h1)`
     }
 `
 
-export const StyledIntroName = styled(motion.pre)`
+export const Name = styled(motion.pre)`
     position: absolute;
     top: 4rem;
     right: 0;
@@ -73,4 +73,4 @@ export const StyledIntroName = styled(motion.pre)`
     }
 `
 
-export default StyledIntroContainer;
+export default Container;
