@@ -7,7 +7,7 @@ const StyledHomePageContainer = styled.div`
     /* width: 93%; */
     /* margin: 0 auto; */
     padding: 0 3.8rem;
-    overflow: hidden;
+    overflow-x: hidden;
 
     @media ${devices.laptop} {
         padding: 0 3rem;
