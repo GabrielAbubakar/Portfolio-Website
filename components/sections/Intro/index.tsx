@@ -5,7 +5,7 @@ import StyledIntroContainer, { StyledIntroHeader, StyledIntroName } from './Intr
 const Intro: React.FunctionComponent = () => {
 
     return (
-        <StyledIntroContainer>
+        <StyledIntroContainer id='intro'>
 
             <Navbar />
 

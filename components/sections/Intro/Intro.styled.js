@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { devices } from '../../styled/mediaqueries/device'
 
 
-const StyledIntroContainer = styled.div`
+const StyledIntroContainer = styled.section`
     position: relative;
     height: 100vh;
     margin-bottom: 10rem;
@@ -14,12 +14,10 @@ const StyledIntroContainer = styled.div`
 export const StyledIntroHeader = styled(motion.h1)`
     color: ${(props) => props.theme.colors.headerText};
     position: absolute;
-    bottom: 0;
+    bottom: 5rem;
     width: 70%;
     font-size: 2.5625rem;
     font-weight: 400;
-    position: absolute;
-    bottom: 5rem;
 
     
     @media ${devices.laptop} {
