@@ -3,7 +3,7 @@ import { devices } from "./mediaqueries/device";
 
 
 
-const StyledHomePageContainer = styled.div`
+const Container = styled.div`
     /* width: 93%; */
     /* margin: 0 auto; */
     padding: 0 3.8rem;
@@ -18,4 +18,4 @@ const StyledHomePageContainer = styled.div`
     }
 `;
 
-export default StyledHomePageContainer;
+export default Container;
