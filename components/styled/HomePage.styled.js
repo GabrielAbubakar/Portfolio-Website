@@ -1,10 +1,21 @@
 import styled from "styled-components";
+import { devices } from "./mediaqueries/device";
 
 
 
 const StyledHomePageContainer = styled.div`
-    width: 93%;
-    margin: 0 auto;
+    /* width: 93%; */
+    /* margin: 0 auto; */
+    padding: 0 5rem;
+    overflow: hidden;
+
+    @media ${devices.laptop} {
+        padding: 0 3rem;
+    }
+
+    @media ${devices.mobileL} {
+        padding: 0 1.4rem;
+    }
 `;
 
 export default StyledHomePageContainer;

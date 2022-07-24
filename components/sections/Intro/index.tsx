@@ -20,8 +20,7 @@ const Intro: React.FunctionComponent = () => {
 
 
             <StyledIntroHeader initial={{ opacity: 0, y: 70 }} animate={{ opacity: 1, y: 0, transition: { duration: 1 } }} >
-                <span className='brown'>Hi there🤙🏾.</span> I&apos;m <span className='white'>Gabriel,</span> <br />
-                a <span className='white'>frontend web developer</span> currently surviving <span className='brown'>Lagos, Nigeria</span> dedicated to creating awesome and accessible web experiences.
+                <span className='brown'>Hi there🤙🏾.</span> I&apos;m <span className='white'>Gabriel,</span> <br /> a <span className='white'>frontend web developer</span> currently surviving <span className='brown'>Lagos, Nigeria</span> dedicated to creating awesome and accessible web experiences.
             </StyledIntroHeader>
 
 

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { devices } from "../styled/mediaqueries/device";
 
 
 const StyledNavbar = styled(motion.nav)`
@@ -7,7 +8,7 @@ const StyledNavbar = styled(motion.nav)`
     justify-content: space-between;
     padding: 2.8rem 0;
     color: ${props => props.theme.colors.bodyText};
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 
 
 
@@ -15,6 +16,14 @@ const StyledNavbar = styled(motion.nav)`
         font-size: 1.25rem;
         font-weight: 600;
         text-transform: uppercase;
+
+        @media ${devices.tablet} {
+            font-size: 1.125rem;
+        }
+
+        @media ${devices.mobileL} {
+            font-size: 0.9375rem;
+        }
     }
 
 
@@ -22,6 +31,10 @@ const StyledNavbar = styled(motion.nav)`
     ul {
         display: flex;
         gap: 1rem;
+
+        @media ${devices.mobileL} {
+            display: none;
+        }
 
         li {
             list-style-type: none;

@@ -8,7 +8,6 @@ export const dark = {
         textHighlight: '#f0f0f0',
         headerText: '#828282',
         headerTextHighlight1: '#f0f0f0',
-        headerTextHighlight2: '#f0f0f0',
         subtext: '#8f876d'
     },
 };
@@ -22,7 +21,7 @@ export const light = {
         secondary: "#B3A577",
         textHighlight: '#f0f0f0',
         headerText: '#504f4f',
-        headerTextLight: '#181818',
+        headerTextHighlight1: '#181818',
         subtext: '#8f876d'
     }
 }
