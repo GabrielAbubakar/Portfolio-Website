@@ -37,7 +37,6 @@ export const StyledIntroHeader = styled(motion.h1)`
 
     .brown {
         color: ${(props) => props.theme.colors.primary};
-        /* color: blue; */
         font-weight: 500;
     }
 
@@ -66,6 +65,13 @@ export const StyledIntroName = styled(motion.pre)`
         font-size: 10rem;
         line-height: 6rem;
         right: 3rem;
+    }
+
+    @media ${devices.mobileL} {
+        top: 6rem;
+        font-size: 10rem;
+        line-height: 6rem;
+        right: 5rem;
     }
 `
 

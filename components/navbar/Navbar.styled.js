@@ -18,14 +18,13 @@ const StyledNavbar = styled(motion.nav)`
         text-transform: uppercase;
 
         @media ${devices.tablet} {
-            font-size: 1.125rem;
+            font-size: 1rem;
         }
 
         @media ${devices.mobileL} {
             font-size: 0.9375rem;
         }
     }
-
 
 
     ul {
@@ -48,6 +47,10 @@ const StyledNavbar = styled(motion.nav)`
                 &:hover {
                     color: ${props => props.theme.colors.primary};
                 }
+
+                @media ${devices.tablet} {
+                    font-size: 0.8125rem;
+                }
             }
         }
     }
@@ -55,7 +58,7 @@ const StyledNavbar = styled(motion.nav)`
 
 export const LinksDiv = styled.div`
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 `
 
 export default StyledNavbar;

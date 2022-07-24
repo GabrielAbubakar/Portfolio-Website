@@ -6,7 +6,7 @@ import { devices } from "./mediaqueries/device";
 const StyledHomePageContainer = styled.div`
     /* width: 93%; */
     /* margin: 0 auto; */
-    padding: 0 5rem;
+    padding: 0 3.8rem;
     overflow: hidden;
 
     @media ${devices.laptop} {
