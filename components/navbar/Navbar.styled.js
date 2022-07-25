@@ -10,6 +10,14 @@ const StyledNavbar = styled(motion.nav)`
     color: ${props => props.theme.colors.bodyText};
     /* font-family: 'Montserrat', sans-serif; */
 
+    @media ${devices.tablet} {
+        padding: 2.5rem 0;
+    }
+
+    @media ${devices.mobileL} {
+        padding: 2rem 0;
+    }
+
 
 
     p {
