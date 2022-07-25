@@ -8,7 +8,20 @@ const Container = styled.section`
     height: 100vh;
     margin-bottom: 10rem;
 
+    padding: 0 3.8rem;
+    overflow-x: hidden;
 
+    @media ${devices.laptop} {
+        padding: 0 3rem;
+    }
+
+    @media ${devices.tablet} {
+        padding: 0 2rem;
+    }
+
+    @media ${devices.mobileL} {
+        padding: 0 1.4rem;
+    }
 `
 
 export const Header = styled(motion.h1)`
