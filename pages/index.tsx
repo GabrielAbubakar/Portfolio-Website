@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Container from '../components/styled/HomePage.styled'
 import Intro from '../components/sections/Intro'
 import About from '../components/sections/About'
+import Work from '../components/sections/Work'
 
 
 
@@ -15,8 +16,11 @@ const Home: NextPage = () => {
                     {/* Intro section */}
                     <Intro />
 
-
+                    {/* About Section */}
                     <About />
+
+                    {/* Work Section */}
+                    <Work />
 
                 </Container>
 
