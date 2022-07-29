@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 export const Container = styled.section`
     margin-bottom: 10rem;
     position: relative;
+    height: auto;
+
 
     padding: 0 3.8rem;
     overflow-x: hidden;
@@ -112,7 +114,7 @@ export const ProjectBox = styled(motion.div)`
         display: block;
         height: auto;
         transition: all 1s;
-        filter: grayscale(20%);
+        filter: grayscale(30%);
 
         @media ${devices.tablet} {
             filter: grayscale(0%);

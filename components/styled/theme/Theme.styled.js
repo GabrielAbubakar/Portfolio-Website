@@ -5,10 +5,10 @@ export const dark = {
         bodyText: "#ccc",
         primary: "#B3A577",
         secondary: '#8f876d',
-        textHighlight: '#f0f0f0',
         headerText: '#828282',
         headerTextHighlight1: '#f0f0f0',
-        subtext: '#8f876d'
+        subtext: '#8f876d',
+        footerLinks: 'grey'
     },
 };
 
@@ -19,9 +19,9 @@ export const light = {
         bodyText: '#181818',
         primary: '#675C35',
         secondary: "#B3A577",
-        textHighlight: '#f0f0f0',
         headerText: '#504f4f',
         headerTextHighlight1: '#181818',
-        subtext: '#8f876d'
+        subtext: '#8f876d',
+        footerLinks: 'grey'
     }
 }

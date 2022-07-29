@@ -12,8 +12,24 @@ interface ProjectProps {
 
 const ProjectItem = ({ link, image, alt, title, details }: ProjectProps) => {
 
+    const itemVariant = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                duration: 2,
+                type: "spring",
+            }
+        },
+    }
+
     return (
-        <ProjectBox>
+        <ProjectBox
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={itemVariant}
+        >
             <a href={link} target="_blank" rel="noreferrer">
                 <figure>
                     <Image src={image} alt={alt} width="1080" height="561" />

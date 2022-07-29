@@ -4,6 +4,7 @@ import Container from '../components/styled/HomePage.styled'
 import Intro from '../components/sections/Intro'
 import About from '../components/sections/About'
 import Work from '../components/sections/Work'
+import Contact from '../components/sections/Contact'
 
 
 
@@ -21,6 +22,9 @@ const Home: NextPage = () => {
 
                     {/* Work Section */}
                     <Work />
+
+                    {/* Contact Section */}
+                    <Contact />
 
                 </Container>
 
