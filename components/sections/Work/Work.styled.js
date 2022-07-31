@@ -27,6 +27,12 @@ export const Container = styled.section`
         padding: 0 1.4rem;
     }
 
+    @media ${devices.laptopL} {
+        width: 1440px;
+        margin-inline: auto;
+        padding: 0;
+    }
+
     &>p {
         font-size: 1.4375rem;
         margin-bottom: 3rem;

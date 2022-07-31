@@ -8,20 +8,28 @@ export const dark = {
         headerText: '#828282',
         headerTextHighlight1: '#f0f0f0',
         subtext: '#8f876d',
-        footerLinks: 'grey'
+        footerLinks: 'grey',
+
+        thumbscrollThumb: "#727172",
+        thumbscrollHover: "#c7c3c7",
+        thumbscrollTrack: "#2c2c2c",
     },
 };
 
 export const light = {
     name: "light-theme",
     colors: {
-        background: '#f5f5f5',
+        background: '#f8f8f8',
         bodyText: '#181818',
         primary: '#675C35',
         secondary: "#B3A577",
         headerText: '#504f4f',
         headerTextHighlight1: '#181818',
         subtext: '#8f876d',
-        footerLinks: 'grey'
+        footerLinks: 'grey',
+
+        thumbscrollThumb: "#777",
+        thumbscrollHover: "#555",
+        thumbscrollTrack: "#aaa",
     }
 }

@@ -22,6 +22,12 @@ export const Container = styled.footer`
     @media ${devices.mobileL} {
         padding: 0 1.4rem;
     }
+
+    @media ${devices.laptopL} {
+        width: 1440px;
+        margin-inline: auto;
+        padding: 0;
+    }
 `
 
 export const Body = styled.div`

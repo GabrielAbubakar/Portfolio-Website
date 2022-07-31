@@ -21,6 +21,12 @@ const Container = styled.section`
     @media ${devices.mobileL} {
         padding: 0 1.4rem;
     }
+
+    @media ${devices.laptopL} {
+        width: 1440px;
+        margin-inline: auto;
+        padding: 0;
+    }
 `
 
 export const Content = styled.article`

@@ -9,7 +9,7 @@ const Container = styled.section`
     margin-bottom: 10rem;
 
     padding: 0 3.8rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
     @media ${devices.laptop} {
         padding: 0 3rem;
@@ -21,6 +21,13 @@ const Container = styled.section`
 
     @media ${devices.mobileL} {
         padding: 0 1.4rem;
+    }
+
+    @media ${devices.laptopL} {
+        width: 1440px;
+        margin-inline: auto;
+        padding: 0;
+        position: relative;
     }
 `
 
@@ -83,6 +90,12 @@ export const Name = styled(motion.pre)`
         font-size: 10rem;
         line-height: 6rem;
         right: 5rem;
+    }
+
+    @media ${devices.laptopL} {
+        top: 9rem;
+        font-size: 18rem;
+        line-height: 10rem;
     }
 `
 

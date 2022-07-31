@@ -20,7 +20,7 @@ const Contact: React.FunctionComponent = () => {
                     <Content>
 
                         <p>Lets talk about your next amazing idea.👇🏼</p>
-                        <a href="mailto:gabrielabudev@gmail.com" rel="noopener" >Send me an email</a>
+                        <a href="mailto:gabrielogrima@gmail.com" rel="noopener" >Send me an email</a>
 
                     </Content>
                 </Flex>
