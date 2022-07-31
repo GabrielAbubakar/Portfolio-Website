@@ -30,6 +30,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Styling
 
 The styling of components in this app follows the method adopted at [This Article](https://alanbsmith.medium.com/structuring-our-styled-components-part-i-2bf21fa64b28)
+https://northflank.com/blog/adding-themes-to-a-react-app-using-styled-components
 
 
 ## Structure of the folders

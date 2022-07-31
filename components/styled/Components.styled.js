@@ -29,4 +29,9 @@ export const SectionName = styled(motion.p)`
 
     -webkit-text-stroke: .2rem #999380;
     -webkit-text-fill-color: ${(props) => props.theme.colors.background};
+
+
+    @media ${devices.mobileL} {
+        left: -20rem;
+    }
 `

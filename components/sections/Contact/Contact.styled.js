@@ -51,7 +51,13 @@ export const Flex2 = styled.div`
         font-size: .9rem;
     }
 
-   
+    p {
+        color: ${(props) => props.theme.colors.footerLinks};
+
+        @media ${devices.mobileL} {
+            font-size: 0.8rem;
+        }
+    }
 `
 
 export const Content = styled.div`
@@ -98,6 +104,11 @@ export const Socials = styled.div`
         margin-bottom: 5rem;
     }
 
+    @media ${devices.mobileL} {
+        font-size: 0.8rem;
+        margin-bottom: 3.5rem;
+    }
+
     a {
         text-decoration: none;
         color: ${(props) => props.theme.colors.footerLinks};
@@ -114,5 +125,8 @@ export const Socials = styled.div`
         &:hover {
             color: ${(props) => props.theme.colors.primary};
         }
+
+
+
     }
 `

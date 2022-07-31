@@ -7,6 +7,10 @@ export const Container = styled.section`
     position: relative;
     height: auto;
 
+    & * {
+        overflow: hidden;
+    }
+
 
     padding: 0 3.8rem;
     overflow-x: hidden;
@@ -42,6 +46,10 @@ export const FlexContainer = styled.div`
         justify-content: space-between;
         margin-right: 5rem;
 
+        @media ${devices.laptop} {
+            margin-right: 0;
+        }
+
         @media ${devices.tablet} {
             display: block;
             margin-right: 0;
@@ -55,7 +63,7 @@ export const ProjectContainer = styled.div`
     gap: 5rem;
 
     &:last-of-type {
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
     }
 
     @media ${devices.tablet} {
@@ -100,7 +108,7 @@ export const ProjectBox = styled(motion.div)`
         }
 
         @media ${devices.mobileL} {
-            font-size: 0.9375rem;
+            font-size: 0.875rem;
         }
     }
 
