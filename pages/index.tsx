@@ -5,6 +5,7 @@ import Intro from '../components/sections/Intro'
 import About from '../components/sections/About'
 import Work from '../components/sections/Work'
 import Contact from '../components/sections/Contact'
+import ToTopButton from '../components/topButton'
 
 
 
@@ -25,6 +26,9 @@ const Home: NextPage = () => {
 
                     {/* Contact Section */}
                     <Contact />
+
+
+                    <ToTopButton />
 
                 </Container>
 

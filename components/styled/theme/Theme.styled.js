@@ -9,10 +9,14 @@ export const dark = {
         headerTextHighlight1: '#f0f0f0',
         subtext: '#8f876d',
         footerLinks: 'grey',
+        footerLinksHover: '#eee',
 
         thumbscrollThumb: "#727172",
         thumbscrollHover: "#c7c3c7",
         thumbscrollTrack: "#2c2c2c",
+
+        buttonBackground: '#b3a577',
+        buttonStroke: '#181818'
     },
 };
 
@@ -27,9 +31,14 @@ export const light = {
         headerTextHighlight1: '#181818',
         subtext: '#8f876d',
         footerLinks: 'grey',
+        footerLinksHover: '#222',
+
 
         thumbscrollThumb: "#777",
         thumbscrollHover: "#555",
         thumbscrollTrack: "#aaa",
+
+        buttonBackground: '#181818',
+        buttonStroke: '#ccc'
     }
 }

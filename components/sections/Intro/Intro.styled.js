@@ -9,7 +9,7 @@ const Container = styled.section`
     margin-bottom: 10rem;
 
     padding: 0 3.8rem;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 
     @media ${devices.laptop} {
         padding: 0 3rem;
