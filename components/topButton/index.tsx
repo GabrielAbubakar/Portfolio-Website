@@ -17,10 +17,15 @@ export const ButtonStyled = styled(motion.div)`
     border-radius: 50%;
 
     @media ${devices.mobileL} {
-        bottom: 2rem;
-        right: 2rem;
         width: 3rem;
         height: 3rem;
+    }
+
+    @media ${devices.mobileL} {
+        bottom: 2rem;
+        right: 2rem;
+        width: 2.3rem;
+        height: 2.3rem;
     }
 
     span {

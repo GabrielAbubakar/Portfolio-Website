@@ -45,7 +45,7 @@ export const Header = styled(motion.h1)`
     }
 
     @media ${devices.tablet} {
-        width: 100%;
+        width: 90%;
         font-size: 2rem;
     }
 
