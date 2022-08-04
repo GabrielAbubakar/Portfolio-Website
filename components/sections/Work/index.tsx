@@ -35,7 +35,7 @@ const Work: React.FunctionComponent = () => {
                 </ProjectContainer>
 
                 <ProjectContainer>
-                    <ProjectItem image={Shopster} title="Shopster (Work in Progress)" details="An ecommerce web app leveraging the powerful state management capabilities of React-Redux and fetching the data from a local GraphQL server. Complete with cart management, local storage of cart data, and dynamic product routes." link="https://github.com/GabrielAbubakar/scandiweb-shopping-app" alt="Scandiweb page" />
+                    <ProjectItem image={Shopster} title="Shopster (Work in Progress)" details="An ecommerce web app leveraging the powerful state management capabilities of React-Redux and fetching the data from a local GraphQL server. Complete with cart management, local storage of cart data, and dynamic product routes." link="https://shopster-app.vercel.app/" alt="Scandiweb page" />
 
                     <ProjectItem image={Space} title="Space Tours" details="The home page of a fictional tourist service. Made with the Next.js framework to leverage its multipage and prerendering capabilities" link=" https://spacetourism-gabeabu.netlify.app" alt="Spacetours page" />
 
