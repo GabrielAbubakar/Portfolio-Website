@@ -16,7 +16,7 @@ const Navbar: React.FunctionComponent = () => {
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#work">Work</a></li>
-                    <li><a href="#connect">Connect</a></li>
+                    <li><a href="#footer">Connect</a></li>
                 </ul>
 
                 <div>

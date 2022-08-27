@@ -44,6 +44,7 @@ export const Content = styled.article`
 export const Paragraph = styled(motion.p)`
     font-size: 1.4375rem;
     margin-bottom: 1.4rem;
+    /* line-height: 1.1; */
 
     @media ${devices.tablet} {
         font-size: 1rem;

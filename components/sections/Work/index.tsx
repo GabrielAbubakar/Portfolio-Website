@@ -25,9 +25,9 @@ const Work: React.FunctionComponent = () => {
             <FlexContainer>
 
                 <ProjectContainer>
-                    <ProjectItem
-                        image={Todo} title="Todo App Tracker" details="Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh" link="https://todoapptracker.netlify.app/" alt="Todo App page"
-                    />
+
+                    <ProjectItem image={Shopster} title="Shopster App" details="An ecommerce web app leveraging the powerful state management capabilities of React-Redux and fetching the data from a GraphQL server. Complete with cart management, local storage of cart data, and dynamic product routes. Fully tested with React Testing Library and Jest." link="https://shopster-app.vercel.app/" alt="Scandiweb page" />
+
 
                     <ProjectItem image={LearnLaw} title="Learn Nigerian Law" details="A live service providing educational materials on the Nigerian Legal System as taught in Nigerian schools. Created in Next.js and in collaboration with another developer to leverage the SEO, prerendering and multipage capabilities of Next.js" link="https://www.learnnigerianlaw.com/" alt="Learn Law home page" />
 
@@ -35,7 +35,10 @@ const Work: React.FunctionComponent = () => {
                 </ProjectContainer>
 
                 <ProjectContainer>
-                    <ProjectItem image={Shopster} title="Shopster (Work in Progress)" details="An ecommerce web app leveraging the powerful state management capabilities of React-Redux and fetching the data from a local GraphQL server. Complete with cart management, local storage of cart data, and dynamic product routes." link="https://shopster-app.vercel.app/" alt="Scandiweb page" />
+
+                    <ProjectItem
+                        image={Todo} title="Todo App Tracker" details="Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh" link="https://todoapptracker.netlify.app/" alt="Todo App page"
+                    />
 
                     <ProjectItem image={Space} title="Space Tours" details="The home page of a fictional tourist service. Made with the Next.js framework to leverage its multipage and prerendering capabilities" link=" https://spacetourism-gabeabu.netlify.app" alt="Spacetours page" />
 

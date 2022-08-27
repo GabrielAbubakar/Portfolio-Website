@@ -66,6 +66,7 @@ const ToTopButton: React.FunctionComponent = () => {
         <AnimatePresence>
             {isVisible && (
                 <ButtonStyled onClick={() => scrollToTop()}
+                    title="Back to Top"
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: [50, -20, 0], transition: { duration: .1 } }}
                     exit={{ opacity: [1, .5, 0], x: [0, -20, 50] }}

@@ -12,22 +12,22 @@ const About: React.FunctionComponent = () => {
 
             <Content>
                 <Paragraph>
-                    Hi there, I’m Gabriel, a self taught front-end web developer based in Lagos, Nigeria.
+                    Hello there, I’m Gabriel a versatile and excellence driven front-end web engineer committed to building digital products for the web that are accessible, functional and user-centric.
                 </Paragraph>
                 <Paragraph>
-                    I’m interested in creating user web experiences out of designs by writing as little and efficient code as possible so as to reduce load times thereby creating awesome site experiences.🚀🚀
+                    My primary technical language for the web is based on Javascript and as such I have practical experience with frontend frameworks including ReactJS, NextJS and VueJs.
                 </Paragraph>
                 <Paragraph>
-                    I have been writing frontend code since 2020 and over time have acquired various skills that have advanced my development workflow.
+                    For style presentation on the web I make use of frontend libraries that are expected of a modern day frontend web engineer including but not limited to CSS/SCSS, Styled Components and TailwindCSS.
                 </Paragraph>
                 <Paragraph>
-                    These skills include competency in the building blocks of the web (HTML, CSS and Javascript), alongside other frontend frameworks and libraries such as React.js, Vue.js and Next.js.
+                    I also enjoy wirting tests for my javascript code so as to increase code confidence and reduce debugging times thats why I also write Typescript for static testing, and the React Testing Library and Jest for the testing of components and their functionalities
                 </Paragraph>
                 <Paragraph>
-                    I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD.
+                    I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD. Some of the other tools I make use of in my development workflow include Redux, Git, Rest and GraphQL APIs (Consumption), Framer Motion, GSAP.
                 </Paragraph>
                 <Paragraph>
-                    I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams.🙃
+                    I am open to working at agile companies that fosters a great environment for continuous personal and professional growth as well working intesively with cutting-edge tech on interesting use cases where I am involved in the lifecycle of the digital products for the web.
                 </Paragraph>
 
 

@@ -34,7 +34,7 @@ const Container = styled.section`
 export const Header = styled(motion.h1)`
     color: ${(props) => props.theme.colors.headerText};
     position: absolute;
-    bottom: 5rem;
+    bottom: 10%;
     width: 70%;
     font-size: 2.5625rem;
     font-weight: 400;
