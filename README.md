@@ -46,3 +46,5 @@ The /components folder contains most of the files used in the project and is div
 - /sections - 
 - /styled -
 
+
+
