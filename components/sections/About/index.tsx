@@ -21,7 +21,7 @@ const About: React.FunctionComponent = () => {
                     For style presentation on the web I make use of frontend libraries that are expected of a modern day frontend web engineer including but not limited to CSS/SCSS, Styled Components and TailwindCSS.
                 </Paragraph>
                 <Paragraph>
-                    I also endeavoue to write tests for my code so as to increase code confidence and reduce debugging times by using Typescript for static testing, and React Testing Library/Jest for the testing of components and their functionalities
+                    I also endeavour to write tests for my code so as to increase code confidence and reduce debugging times by using Typescript for static testing, and React Testing Library/Jest for the testing of components and their functionalities
                 </Paragraph>
                 <Paragraph>
                     I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD. Some of the other tools I make use of in my development workflow include Redux, Git, Rest and GraphQL APIs (Consumption), Framer Motion, GSAP.

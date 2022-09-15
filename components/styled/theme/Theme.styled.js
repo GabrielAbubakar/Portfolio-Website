@@ -72,7 +72,9 @@ export const dark = {
         background: "#16181D",
         headerText: "#E8E8FD",
         primary: "#5686F5",
-        bodyText: '#c0c9ca'
+        bodyText: '#c0c9ca',
+
+        buttonBack: "rgb(86, 134, 145, .1)",
     },
 };
 
