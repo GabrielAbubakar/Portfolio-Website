@@ -1,47 +1,47 @@
-export const dark = {
-    name: "dark-theme",
-    colors: {
-        background: "#181818",
-        bodyText: "#ccc",
-        primary: "#B3A577",
-        secondary: '#8f876d',
-        headerText: '#828282',
-        headerTextHighlight1: '#f0f0f0',
-        subtext: '#8f876d',
-        footerLinks: 'grey',
-        footerLinksHover: '#eee',
+// export const dark = {
+//     name: "dark-theme",
+//     colors: {
+//         background: "#181818",
+//         bodyText: "#ccc",
+//         primary: "#B3A577",
+//         secondary: '#8f876d',
+//         headerText: '#828282',
+//         headerTextHighlight1: '#f0f0f0',
+//         subtext: '#8f876d',
+//         footerLinks: 'grey',
+//         footerLinksHover: '#eee',
 
-        thumbscrollThumb: "#727172",
-        thumbscrollHover: "#c7c3c7",
-        thumbscrollTrack: "#2c2c2c",
+//         thumbscrollThumb: "#727172",
+//         thumbscrollHover: "#c7c3c7",
+//         thumbscrollTrack: "#2c2c2c",
 
-        buttonBackground: '#b3a577',
-        buttonStroke: '#181818'
-    },
-};
+//         buttonBackground: '#b3a577',
+//         buttonStroke: '#181818'
+//     },
+// };
 
-export const light = {
-    name: "light-theme",
-    colors: {
-        background: '#f8f8f8',
-        bodyText: '#181818',
-        primary: '#675C35',
-        secondary: "#B3A577",
-        headerText: '#504f4f',
-        headerTextHighlight1: '#181818',
-        subtext: '#8f876d',
-        footerLinks: 'grey',
-        footerLinksHover: '#222',
+// export const light = {
+//     name: "light-theme",
+//     colors: {
+//         background: '#f8f8f8',
+//         bodyText: '#181818',
+//         primary: '#675C35',
+//         secondary: "#B3A577",
+//         headerText: '#504f4f',
+//         headerTextHighlight1: '#181818',
+//         subtext: '#8f876d',
+//         footerLinks: 'grey',
+//         footerLinksHover: '#222',
 
 
-        thumbscrollThumb: "#777",
-        thumbscrollHover: "#555",
-        thumbscrollTrack: "#aaa",
+//         thumbscrollThumb: "#777",
+//         thumbscrollHover: "#555",
+//         thumbscrollTrack: "#aaa",
 
-        buttonBackground: '#181818',
-        buttonStroke: '#ccc'
-    }
-}
+//         buttonBackground: '#181818',
+//         buttonStroke: '#ccc'
+//     }
+// }
 
 // export const lightnew = {
 //     name: "light-theme",
@@ -66,23 +66,23 @@ export const light = {
 //     }
 // }
 
-export const darkmax = {
+export const dark = {
     name: "dark-theme",
     colors: {
         background: "#16181D",
         headerText: "#E8E8FD",
         primary: "#5686F5",
-        text: 'c0c9ca'
+        bodyText: '#c0c9ca'
     },
 };
 
-export const lightmax = {
-    name: "dark-theme",
+export const light = {
+    name: "light-theme",
     colors: {
         background: "#F9FAFB",
         headerText: "#04052F",
         primary: "#0e52f1",
-        text: '626b84'
+        bodyText: '#04052F'
     },
 };
 

@@ -76,7 +76,7 @@ export const Name = styled(motion.pre)`
     text-shadow: 1rem 1rem 0 ${(props) => props.theme.colors.primary};
     z-index: -1;
 
-    -webkit-text-stroke: .2rem #999380;
+    -webkit-text-stroke: .2rem ${(props) => props.theme.colors.primary};
     -webkit-text-fill-color: ${(props) => props.theme.colors.background};
 
     @media ${devices.tablet} {
