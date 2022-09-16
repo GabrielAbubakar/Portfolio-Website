@@ -101,7 +101,7 @@ export const light = {
 // linear-gradient(90deg, rgb(255, 226, 210) 0%, rgb(255, 189, 205) 100%);
 // linear-gradient(90deg, rgb(218, 212, 236) 0%, rgb(218, 212, 236) 1%, rgb(243, 231, 233) 100%);
 // linear-gradient(90deg, rgb(231, 240, 253) 0%, rgb(172, 203, 238) 100%);
-//linear-gradient(90deg, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
+// linear-gradient(90deg, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
 
 // fonts
 // Inter Segou UI

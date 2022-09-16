@@ -7,10 +7,11 @@ interface ProjectProps {
     image: StaticImageData,
     alt: string,
     title: string,
-    details: string
+    details: string,
+    color?: string
 }
 
-const ProjectItem = ({ link, image, alt, title, details }: ProjectProps) => {
+const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) => {
 
     const itemVariant = {
         hidden: { opacity: 0, y: 50 },
@@ -33,24 +34,25 @@ const ProjectItem = ({ link, image, alt, title, details }: ProjectProps) => {
 
     return (
         <ProjectBox
-            initial="hidden"
-            whileInView="visible"
-            whileHover="hover"
-            viewport={{ once: true }}
-            variants={itemVariant}
+            // initial="hidden"
+            // whileInView="visible"
+            // whileHover="hover"
+            // viewport={{ once: true }}
+            // variants={itemVariant}
+            color={color}
         >
             <a href={link} target="_blank" rel="noreferrer">
                 <figure>
-                    <Image src={image} alt={alt} width="1080" height="561" placeholder="blur" />
+                    <Image src={image} alt={alt} placeholder="blur" />
                 </figure>
             </a>
             <div>
-                <h3>
+                <h2>
                     {title}
                     <span>
 
                     </span>
-                </h3>
+                </h2>
                 <p>{details}</p>
             </div>
         </ProjectBox>

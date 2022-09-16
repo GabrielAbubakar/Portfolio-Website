@@ -161,42 +161,99 @@ export const ProjectCol = styled.div`
     margin: 0 auto;
 `
 
-export const ProjectBox = styled.div`
+export const ProjectBox = styled(motion.div)`
 
-    &:hover figure {
-        ${props => {
-        switch (props.color) {
-            case 'pink':
-                return css`
-                            box-shadow: 0 0 2rem rgb(231, 223, 255);
-                        `
-            default:
-                return css`
-                            box-shadow: 0 0 2rem grey;
-                        `
-        }
-    }}
-    }
+
 
     
     figure {
         padding: 4rem 9rem;
         border-radius: 1rem;
         margin-bottom: 1.6rem;
-        /* background: linear-gradient(90deg, rgb(231, 223, 255) 0%, rgb(250, 172, 168) 100%, rgb(255, 169, 165) 100%); */
+
+        @media ${devices.tablet} {
+            padding: 3rem 6rem;
+        }
+
+        @media ${devices.mobileL} {
+            padding: 1rem 4rem;
+            border-radius: .8rem;
+        }
+
+        @media ${devices.mobileM} {
+            padding: 1rem 2rem;
+        }
 
         ${props => {
+        // style switcher based on props
         switch (props.color) {
             case 'pink':
                 return css`
-                                background: linear-gradient(90deg, rgb(231, 223, 255) 0%, rgb(250, 172, 168) 100%, rgb(255, 169, 165) 100%);
-                            `
+                    background: linear-gradient(90deg, rgb(231, 223, 255) 0%, rgb(250, 172, 168) 100%, rgb(255, 169, 165) 100%);
+                `
+            case 'blue':
+                return css`
+                    background: linear-gradient(90deg, rgb(184, 220, 255) 16.15%, rgb(107, 187, 255) 100%);
+                `
+            case 'darkpink':
+                return css`
+                    background: linear-gradient(90deg, rgb(255, 226, 210) 0%, rgb(255, 189, 205) 100%);
+                `
+            case 'greypink':
+                return css`
+                    background: linear-gradient(90deg, rgb(218, 212, 236) 0%, rgb(218, 212, 236) 1%, rgb(243, 231, 233) 100%);
+                `
+            case 'whitepink':
+                return css`
+                    background: linear-gradient(90deg, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
+                `
+            case 'skyblue':
+                return css`
+                    background: linear-gradient(90deg, rgb(231, 240, 253) 0%, rgb(172, 203, 238) 100%);
+                `
             default:
                 return css`
-                            background-color: grey;
-                        `
+                    background: linear-gradient(90deg, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
+                `
         }
     }}
+
+        &:hover {
+            ${props => {
+        switch (props.color) {
+            case 'pink':
+                return css`
+                    box-shadow: 0 0 2rem rgb(231, 223, 255);
+                `
+            case 'blue':
+                return css`
+                    box-shadow: 0 0 2rem  rgb(107, 187, 255);
+                `
+            case 'darkpink':
+                return css`
+                    box-shadow: 0 0 2rem rgb(255, 189, 205);
+                `
+            case 'greypink':
+                return css`
+                    box-shadow: 0 0 2rem  rgb(243, 231, 233);
+                `
+            case 'whitepink':
+                return css`
+                    box-shadow: 0 0 2rem  rgb(227, 238, 255);
+                `
+            case 'skyblue':
+                return css`
+                    box-shadow: 0 0 2rem  rgb(172, 203, 238);
+                `
+            default:
+                return css`
+                    box-shadow: 0 0 2rem grey;
+                `
+        }
+    }}
+    }
+
+
     }
 
     h2 {
