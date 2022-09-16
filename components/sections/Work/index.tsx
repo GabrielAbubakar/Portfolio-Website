@@ -1,13 +1,18 @@
 import React from 'react'
 import { Header, SectionName } from '../../styled/Components.styled'
-import { Container, FlexContainer, ProjectContainer } from './Work.styled'
+import {
+    Container, ProjectCol, ProjectBox
+    // FlexContainer,
+    // ProjectContainer
+} from './Work.styled'
 import ProjectItem from '../../projectItem'
-import Todo from '../../../public/assets/TodoApp.png'
+import Todo from '../../../public/assets/1920Mdundo.png'
 import LearnLaw from '../../../public/assets/learnlaw.png'
 import Space from '../../../public/assets/spacetours.png'
 import SPHX from '../../../public/assets/Sphx.png'
 import Shopster from '../../../public/assets/Scandiweb.png'
 import Loop from '../../../public/assets/Loopstudios.jpeg'
+import Image from 'next/image'
 
 
 
@@ -18,11 +23,22 @@ const Work: React.FunctionComponent = () => {
             {/* <SectionName>Work.</SectionName> */}
 
             <Header>Work.</Header>
-            <p>
-                Over the course of learning about web technologies, I took on a hands-on approach of taking a number of personal projects based on said tech. Here is a group of selected works that I have worked on recently. This list gets updated regularly as more projects are added into it
-            </p>
+            <ProjectCol>
+                <ProjectBox color='pink'>
+                    <figure>
+                        <Image src={Todo} alt='todo' />
+                    </figure>
+                    <h2>Project Name</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolor deserunt pariatur officia tempore facere aut dolore necessitatibus consequatur delectus!</p>
+                </ProjectBox>
+            </ProjectCol>
 
-            <FlexContainer>
+
+            {/* <p>
+                Over the course of learning about web technologies, I took on a hands-on approach of taking a number of personal projects based on said tech. Here is a group of selected works that I have worked on recently. This list gets updated regularly as more projects are added into it
+            </p> */}
+
+            {/* <FlexContainer>
 
                 <ProjectContainer>
 
@@ -44,7 +60,7 @@ const Work: React.FunctionComponent = () => {
 
                     <ProjectItem image={SPHX} title="SPHX Landing" details="Landing page for a fictional furniture shopping store and a section containing filtered products. React framework for creating the project" link="https://shpx-landing.netlify.app/" alt="SPHX Page" />
                 </ProjectContainer>
-            </FlexContainer>
+            </FlexContainer> */}
 
         </Container>
     )

@@ -74,6 +74,8 @@ export const dark = {
         primary: "#5686F5",
         bodyText: '#c0c9ca',
 
+
+        buttonText: "#fff",
         buttonBack: "rgb(86, 134, 145, .1)",
     },
 };
@@ -84,7 +86,10 @@ export const light = {
         background: "#F9FAFB",
         headerText: "#04052F",
         primary: "#0e52f1",
-        bodyText: '#04052F'
+        bodyText: '#04052F',
+
+        buttonBack: "#fff",
+        buttonText: "rgb(86, 134, 145, .1)",
     },
 };
 
