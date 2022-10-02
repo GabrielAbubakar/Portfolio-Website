@@ -29,10 +29,10 @@ const Work: React.FunctionComponent = () => {
 
                 <ProjectItem
                     image={Mdundo}
-                    title="Todo App Tracker"
-                    details="Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh"
-                    link="https://todoapptracker.netlify.app/"
-                    alt="Todo App page"
+                    title="Mdundo For Brands"
+                    details="Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines."
+                    link="https://mdundoforbrands.netlify.app/"
+                    alt="Mdundo for brands page"
                     color='pink'
                 />
 

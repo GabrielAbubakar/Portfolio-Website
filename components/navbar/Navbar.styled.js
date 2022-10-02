@@ -23,7 +23,7 @@ const StyledNavbar = styled(motion.nav)`
     p {
         font-size: 1.25rem;
         font-weight: 600;
-        /* text-transform: uppercase; */
+        text-transform: uppercase;
         /* font-family: 'Montserrat'; */
 
         @media ${devices.tablet} {

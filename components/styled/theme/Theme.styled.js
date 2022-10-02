@@ -74,7 +74,12 @@ export const dark = {
         primary: "#5686F5",
         bodyText: '#c0c9ca',
 
+        // scrollbar colors
+        thumbscrollThumb: "#727172",
+        thumbscrollHover: "#c7c3c7",
+        thumbscrollTrack: "#2c2c2c",
 
+        // button colors
         buttonText: "#fff",
         buttonBack: "rgb(86, 134, 145, .1)",
     },
@@ -88,6 +93,12 @@ export const light = {
         primary: "#0e52f1",
         bodyText: '#04052F',
 
+        // Scrollbar colors
+        thumbscrollThumb: "#777",
+        thumbscrollHover: "#555",
+        thumbscrollTrack: "#aaa",
+
+        // button colors
         buttonBack: "#fff",
         buttonText: "rgb(86, 134, 145, .1)",
     },

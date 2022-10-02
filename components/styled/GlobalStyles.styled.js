@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
-    /* ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: 10px;
         height: 20px;
     }
@@ -48,7 +48,7 @@ const GlobalStyle = createGlobalStyle`
         background: ${(props) => props.theme.colors.thumbscrollTrack};
         //border-radius: 19px;
         box-shadow: inset 0px 0px 0px 0px #F0F0F0;
-    } */
+    }
 `
 
 

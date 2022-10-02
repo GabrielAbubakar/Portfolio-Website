@@ -14,10 +14,10 @@ interface ProjectProps {
 const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) => {
 
     const itemVariant = {
-        hidden: { opacity: 0, y: 50 },
+        hidden: { opacity: 0, x: 100, },
         visible: {
             opacity: 1,
-            y: 0,
+            x: 0,
             transition: {
                 duration: 3,
                 type: "spring",
@@ -34,11 +34,11 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
 
     return (
         <ProjectBox
-            // initial="hidden"
-            // whileInView="visible"
-            // whileHover="hover"
-            // viewport={{ once: true }}
-            // variants={itemVariant}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            viewport={{ once: true }}
+            variants={itemVariant}
             color={color}
         >
             <a href={link} target="_blank" rel="noreferrer">
