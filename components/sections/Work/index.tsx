@@ -29,7 +29,7 @@ const Work: React.FunctionComponent = () => {
 
                 <ProjectItem
                     image={Mdundo}
-                    title="Mdundo For Brands"
+                    title="Mdundo for Brands"
                     details="Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines."
                     link="https://mdundoforbrands.netlify.app/"
                     alt="Mdundo for brands page"
