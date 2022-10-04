@@ -42,9 +42,9 @@ export const Content = styled.article`
 `
 
 export const Paragraph = styled(motion.p)`
-    font-size: 1.4375rem;
+    font-size: 1.2375rem;
     margin-bottom: 1.4rem;
-    /* line-height: 1.1; */
+    line-height: 1.6;
 
     @media ${devices.tablet} {
         font-size: 1rem;
@@ -54,13 +54,20 @@ export const Paragraph = styled(motion.p)`
 `
 
 export const Button = styled(motion.a)`
-    color: ${(props) => props.theme.colors.bodyText};
+    color: ${(props) => props.theme.colors.buttonText};
     text-decoration: none;
-    border: 3px solid ${(props) => props.theme.colors.primary};
-    padding: .7rem 1.2rem;
+    background-color:  ${(props) => props.theme.colors.primary};
+    border-radius: .35rem;
+    padding: .9rem 1.2rem;
     display: block;
     width: fit-content;
     margin-top: 2.5rem;
+    font-weight: 700;
+
+    &:hover {
+        background-color: ${(props) => props.theme.colors.buttonBack};
+        color: ${(props) => props.theme.colors.primary};
+    }
 `
 
 

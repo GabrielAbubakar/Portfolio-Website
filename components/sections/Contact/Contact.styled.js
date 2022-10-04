@@ -117,7 +117,7 @@ export const Socials = styled.div`
 
     a {
         text-decoration: none;
-        color: ${(props) => props.theme.colors.footerLinks};
+        color: ${(props) => props.theme.colors.bodyText};
         font-weight: 500;
 
         &:not(:last-of-type) {
@@ -130,7 +130,7 @@ export const Socials = styled.div`
         }
 
         &:hover {
-            color: ${(props) => props.theme.colors.footerLinksHover};
+            color: ${(props) => props.theme.colors.primary};
         }
     }
 `
