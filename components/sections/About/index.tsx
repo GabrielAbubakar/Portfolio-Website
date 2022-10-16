@@ -27,7 +27,7 @@ const About: React.FunctionComponent = () => {
                     I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD. Some of the other tools I make use of in my development workflow include Redux, Git, Rest and GraphQL APIs (Consumption), Framer Motion, GSAP.
                 </Paragraph>
                 <Paragraph>
-                    I am open to working at agile companies that fosters a great environment for continuous personal and professional growth as well working intesively with cutting-edge tech on interesting use cases where I am involved in the lifecycle of the digital products for the web.
+                    Currently searching for opportunities at agile companies that foster a great environment for continuous personal and professional growth as well as working intensively with cutting-edge tech on interesting use cases where I am involved in the lifecycle of the digital products for the web.
                 </Paragraph>
 
 
