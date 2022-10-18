@@ -57,9 +57,9 @@ const Work: React.FunctionComponent = () => {
                 <ProjectItem
                     image={Crypto}
                     title="Crypto Time Travel"
-                    details="A live service providing educational materials on the Nigerian Legal System as taught in Nigerian schools. Created in Next.js and in collaboration with another developer to leverage the SEO, prerendering and multipage capabilities of Next.js"
-                    link="https://www.learnnigerianlaw.com/"
-                    alt="Learn Law home page"
+                    details="Made with NextJS, TailwindCSS and the CoinGecko API. Feeds a user calculated results based on their input and information from the crypto market api."
+                    link="https://crypto-time-travel.vercel.app/"
+                    alt="Crypto time travel home page"
                     color='greypink' />
 
                 <ProjectItem
