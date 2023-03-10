@@ -67,6 +67,15 @@ export const Button = styled(motion.a)`
     &:hover {
         background-color: ${(props) => props.theme.colors.buttonBack};
         color: ${(props) => props.theme.colors.primary};
+
+        svg {
+            fill: ${(props) => props.theme.colors.primary};
+        }
+    }
+
+    svg {
+        fill: ${(props) => props.theme.colors.primary};
+        margin-left: .5rem;
     }
 `
 

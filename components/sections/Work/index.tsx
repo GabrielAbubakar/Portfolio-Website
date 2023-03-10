@@ -12,6 +12,7 @@ import LearnLaw from '../../../public/assets/1920LearnLaw.png'
 import Space from '../../../public/assets/spacetours.png'
 import SPHX from '../../../public/assets/Sphx.png'
 import Shopster from '../../../public/assets/1920Shopster.png'
+import DC from '../../../public/assets/1920DesignCircle.png'
 import Crypto from '../../../public/assets/1920Crypto.png'
 import Loop from '../../../public/assets/Loopstudios.jpeg'
 import Image from 'next/image'
@@ -37,11 +38,11 @@ const Work: React.FunctionComponent = () => {
                 />
 
                 <ProjectItem
-                    image={Shopster}
-                    title="Shopster App"
-                    details="An ecommerce web app leveraging the powerful state management capabilities of React-Redux and fetching the data from a GraphQL server. Complete with cart management, local storage of cart data, and dynamic product routes. Fully tested with React Testing Library and Jest."
-                    link="https://shopster-app.vercel.app/"
-                    alt="Scandiweb page"
+                    image={DC}
+                    title="Design Cricle Global Services"
+                    details="A contract for the development of a website writing web code in alignment with supplied design files on Figma. Made use of Nextjs and SCSS for the client site."
+                    link="https://designcirclegs.com/"
+                    alt="Design Circle page"
                     color='blue'
                 />
 

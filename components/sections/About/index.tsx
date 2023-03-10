@@ -33,7 +33,11 @@ const About: React.FunctionComponent = () => {
 
                 <Button
                     href="https://drive.google.com/file/d/14VcRPP-s5dN7OWu1Flyu-8rAs0NCFLLo/view?usp=sharing"
-                    rel='noreferrer'>Resume</Button>
+                    rel='noreferrer'>Resume
+                    <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="inherit" />
+                    </svg>
+                </Button>
             </Content>
 
             <SectionName
