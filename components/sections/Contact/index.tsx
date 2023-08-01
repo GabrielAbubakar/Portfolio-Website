@@ -31,7 +31,7 @@ const Contact: React.FunctionComponent = () => {
                         <a href="https://twitter.com/GabeAbubakarr" target="_blank" rel="noreferrer" >TWITTER</a>
                     </Socials>
                     <p>
-                        &copy; 2022 by GABRIEL ABUBAKAR.
+                        &copy; 2023 by GABRIEL ABUBAKAR.
                     </p>
                 </Flex2>
             </Body>
