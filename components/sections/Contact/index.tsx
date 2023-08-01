@@ -26,7 +26,7 @@ const Contact: React.FunctionComponent = () => {
                 </Flex>
                 <Flex2>
                     <Socials>
-                        <a href="#null" target="_blank" rel="noreferrer" >LINKEDIN</a>
+                        <a href="https://www.linkedin.com/in/gabriel-abubakar-0a0617224/" target="_blank" rel="noreferrer" >LINKEDIN</a>
                         <a href="https://github.com/GabrielAbubakar" target="_blank" rel="noreferrer" >GITHUB</a>
                         <a href="https://twitter.com/GabeAbubakarr" target="_blank" rel="noreferrer" >TWITTER</a>
                     </Socials>
