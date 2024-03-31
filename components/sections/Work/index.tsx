@@ -41,7 +41,7 @@ const Work: React.FunctionComponent = () => {
                     image={DC}
                     title="Design Cricle Global Services"
                     details="A contract for the development of a website writing web code in alignment with supplied design files on Figma. Made use of Nextjs and SCSS for the client site."
-                    link="https://designcirclegs.com/"
+                    link="https://design-circle.vercel.app/"
                     alt="Design Circle page"
                     color='blue'
                 />
