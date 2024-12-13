@@ -37,7 +37,7 @@ const Layout = ({ children }: { children: any }) => {
                 <ThemeProvider theme={selectedTheme}>
                     {/* SEO stuff in the head tag */}
                     <Head>
-                        <title>Gabriel Abubakar : Frontend Developer</title>
+                        <title>Gabriel Abubakar : Software Engineer</title>
                         <meta name="description" content="Portfolio Site of Gabriel Abubakar" />
                         <link rel="icon" href="/favicon.ico" />
                         {/* <link rel="icon" href="😁" /> */}
