@@ -32,6 +32,7 @@ const About: React.FunctionComponent = () => {
 
 
                 <Button
+                    target='_blank'
                     href="https://docs.google.com/document/d/18lJt11IEQF1Zmas8BM8HMa5GFyBq36h4Fkf7U5PP8Tw/edit?usp=drive_link"
                     rel='noreferrer'>Resume
                     <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -23,6 +23,7 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                 type: "spring",
             }
         },
+        exiting: { opacity: 0, x: -100, scale: 3 },
         hover: {
             y: -4,
             transition: {
@@ -34,10 +35,13 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
 
     return (
         <ProjectBox
+            key={alt}
             initial="hidden"
-            whileInView="visible"
+            // whileInView="visible"
+            animate="visible"
+            exit="exiting"
             whileHover="hover"
-            viewport={{ once: true }}
+            // viewport={{ once: true }}
             variants={itemVariant}
             color={color}
         >
