@@ -12,10 +12,10 @@ const About: React.FunctionComponent = () => {
 
             <Content>
                 <Paragraph>
-                    Hello there, I’m Gabriel a versatile and excellence driven front-end web engineer committed to building digital products for the web that are accessible, functional and user-centric.
+                    Hello there, I’m Gabriel a versatile and excellence driven software engineer committed to building digital products for the web that are accessible, functional and user-centric.
                 </Paragraph>
                 <Paragraph>
-                    My primary technical language for the web is Javascript and as such I have practical experience with frontend frameworks including React, Next and Vue.
+                    My primary technical language for the web is Javascript/Typescript and as such I have practical experience with frameworks and tools on the frontend including React, Next and Vue. I also have experience building and contribution to backend projects with NodeJS, Express.
                 </Paragraph>
                 <Paragraph>
                     For style presentation on the web I make use of frontend libraries that are expected of a modern day frontend web engineer including but not limited to CSS/SCSS, Styled Components and TailwindCSS.
@@ -27,7 +27,7 @@ const About: React.FunctionComponent = () => {
                     I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD. Some of the other tools I make use of in my development workflow include Redux, Git, Rest and GraphQL APIs (Consumption), Framer Motion, GSAP.
                 </Paragraph>
                 <Paragraph>
-                    Currently searching for opportunities at agile companies that foster a great environment for continuous personal and professional growth as well as working intensively with cutting-edge tech on interesting use cases where I am involved in the lifecycle of the digital products for the web.
+                    Currently searching for opportunities at agile teams that foster a great environment for continuous personal and professional growth as well as working intensively with cutting-edge tech on interesting use cases where I am involved in the lifecycle of the digital products for the web.
                 </Paragraph>
 
 
