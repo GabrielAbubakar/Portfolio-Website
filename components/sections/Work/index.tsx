@@ -10,7 +10,8 @@ import ProjectItem from '../../projectItem'
 import Mdundo from '../../../public/assets/1920Mdundo.png'
 import Todo from '../../../public/assets/1920Todo.png'
 import LearnLaw from '../../../public/assets/1920LearnLaw.png'
-import Smoothies from '../../../public/assets/Gabriels Smoothies.png'
+import Smoothies from '../../../public/assets/GabrielsSmoothies.png'
+import Linkly from '../../../public/assets/LinklyURLShortener.png'
 import Space from '../../../public/assets/spacetours.png'
 import SPHX from '../../../public/assets/Sphx.png'
 import Shopster from '../../../public/assets/1920Shopster.png'
@@ -131,9 +132,17 @@ const Work: React.FunctionComponent = () => {
                                 image={Smoothies}
                                 title="Gabriel's Smoothies"
                                 details="Made with NodeJS, Express and MongoDB."
-                                link="https://github.com/GabrielAbubakar/express-auth-app"
+                                link="https://express-gabriels-smoothies.onrender.com"
                                 alt="Gabriel's smoothies page"
                                 color='skyblue'
+                            />
+                            <ProjectItem
+                                image={Linkly}
+                                title="Linkly URL Shortener"
+                                details="Made with NodeJS, Express and MongoDB."
+                                link="https://express-url-shortener-vrf3.onrender.com"
+                                alt="Gabriel's smoothies page"
+                                color='greypink'
                             />
                         </AnimatePresence>
                     </ProjectCol>
