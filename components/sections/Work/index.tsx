@@ -131,7 +131,7 @@ const Work: React.FunctionComponent = () => {
                             <ProjectItem
                                 image={Smoothies}
                                 title="Gabriel's Smoothies"
-                                details="Made with NodeJS, Express and MongoDB."
+                                details="Made with NodeJS, Express and MongoDB. For logged in users to create recipes, view them and delete the recipes. Implemented protected routes for certain pages and features using JSON Web Tokens and Web Cookies."
                                 link="https://express-gabriels-smoothies.onrender.com"
                                 alt="Gabriel's smoothies page"
                                 color='skyblue'
@@ -139,7 +139,7 @@ const Work: React.FunctionComponent = () => {
                             <ProjectItem
                                 image={Linkly}
                                 title="Linkly URL Shortener"
-                                details="Made with NodeJS, Express and MongoDB."
+                                details="Made with NodeJS, Express, EJS and MongoDB. A straightfoward application that allows a user to shorten a link by interacting with the backend API through the views. Also records in the database the number of times a specific short link has been used."
                                 link="https://express-url-shortener-vrf3.onrender.com"
                                 alt="Gabriel's smoothies page"
                                 color='greypink'
