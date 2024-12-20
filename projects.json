@@ -1,0 +1,98 @@
+[
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "../../../public/assets/1920Mdundo.png",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Mdundo For Brands",
+       "link": "",
+       "stack": ["NextJS", "React"],
+       "description": "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+       "imgSrc": "",
+       "platform": "Frontend"
+    },
+    {
+       "name": "Gabriel's Smoothies",
+       "link": "",
+       "stack": ["NodeJS", "ExpressJS", "JWT", "MongoDB"],
+       "description": "Made with NodeJS, Express and MongoDB. For logged in users to create recipes, view them and delete the recipes. Implemented protected routes for certain pages and features using JSON Web Tokens and Web Cookies.",
+       "imgSrc": "",
+       "platform": "Backend"
+    },
+    {
+       "name": "Linkly URL Shortener",
+       "link": "",
+       "stack": ["NodeJS", "ExpressJS"],
+       "description": "Made with NodeJS, Express, EJS and MongoDB. A straightfoward application that allows a user to shorten a link by interacting with the backend API through the views. Also records in the database the number of times a specific short link has been used.",
+       "imgSrc": "",
+       "platform": "Backend"
+    }
+   ]

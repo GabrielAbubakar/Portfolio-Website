@@ -37,11 +37,11 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
         <ProjectBox
             key={alt}
             initial="hidden"
-            // whileInView="visible"
-            animate="visible"
-            exit="exiting"
+            whileInView="visible"
+            // animate="visible"
+            // exit="exiting"
             whileHover="hover"
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             variants={itemVariant}
             color={color}
         >
