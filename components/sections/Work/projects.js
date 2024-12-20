@@ -9,27 +9,37 @@ import DC from '../../../public/assets/1920DesignCircle.png'
 import Crypto from '../../../public/assets/1920Crypto.png'
 import Loop from '../../../public/assets/Loopstudios.jpeg'
 import Mdundo from '../../../public/assets/1920Mdundo.png'
+import Eloni from '../../../public/assets/Eloni.png'
 
 
 
 export const projects = [
     {
-       name: "Mdundo For Brands",
-       link: "https://mdundoforbrands.netlify.app/",
-       stack: ["NextJS", "React"],
-       description: "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
-       imgSrc: Mdundo,
-       platform: "frontend",
-       color: "blue"
+        name: "Mdundo For Brands",
+        link: "https://mdundoforbrands.netlify.app/",
+        stack: ["NextJS", "React"],
+        description: "Redevelopment of a new design for an African music streaming platform. Made with NextJs and took Search Engine Optimizations in consideration in order to increase brand visibility on search engines.",
+        imgSrc: Mdundo,
+        platform: "frontend",
+        color: "blue"
     },
     {
-       name: "Design Cricle Global Services",
-       link: "https://design-circle.vercel.app/",
-       stack: ["NextJS", "React"],
-       description: "A contract for the development of a website writing web code in alignment with supplied design files on Figma. Made use of Nextjs and SCSS for the client site.",
-       imgSrc: DC,
-       platform: "frontend",
-       color: "pink"
+        name: "Eloni Marketplace",
+        link: "https://elonimarket.com/",
+        stack: ["NextJS", "Redux"],
+        description: "A contract for the development of an ecommerce website writing web code in alignment with supplied design files on Figma and integrating a backend API by another developer for the accomplishment of the application. Made use of Nextjs, Typescript, Redux, SocketIO, TailwindCSS for the client site.",
+        imgSrc: Eloni,
+        platform: "frontend",
+        color: "skyblue"
+    },
+    {
+        name: "Design Cricle Global Services",
+        link: "https://design-circle.vercel.app/",
+        stack: ["NextJS", "React"],
+        description: "A contract for the development of a website writing web code in alignment with supplied design files on Figma. Made use of Nextjs and SCSS for the client site.",
+        imgSrc: DC,
+        platform: "frontend",
+        color: "pink"
     },
     {
         name: "Learn Nigerian Law",

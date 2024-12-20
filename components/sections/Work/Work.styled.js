@@ -50,7 +50,7 @@ export const Container = styled.section`
 export const ProjectCol = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 10rem;
     padding-top: 2rem;
     max-width: 900px;
     margin: 0 auto;
