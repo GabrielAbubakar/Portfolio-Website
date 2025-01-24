@@ -9,7 +9,7 @@ const Navbar: React.FunctionComponent = () => {
 
 
     return (
-       // <StyledNavbar initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+        // <StyledNavbar initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <StyledNavbar>
             <p>Gabriel Abubakar.</p>
 
@@ -20,14 +20,14 @@ const Navbar: React.FunctionComponent = () => {
                     <li><a href="#footer">Connect</a></li>
                 </ul>
 
-                <div>
+                {/* <div>
                     <button onClick={() => handleThemeChange(dark)}>
                         Dark
                     </button>
                     <button onClick={() => handleThemeChange(light)}>
                         Light
                     </button>
-                </div>
+                </div> */}
             </LinksDiv>
         </StyledNavbar>
     )
