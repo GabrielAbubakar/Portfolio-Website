@@ -67,16 +67,16 @@ export const ProjectBox = styled(motion.div)`
         margin-bottom: 1.6rem;
 
         @media ${devices.tablet} {
-            padding: 3rem 6rem;
+            padding: 2rem 3rem;
         }
 
         @media ${devices.mobileL} {
-            padding: 1rem 4rem;
+            padding: 1.5rem 1rem;
             border-radius: .8rem;
         }
 
         @media ${devices.mobileM} {
-            padding: 1rem 2rem;
+            padding: 1rem 0.5rem;
         }
 
         ${props => {

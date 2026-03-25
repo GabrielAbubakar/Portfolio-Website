@@ -5,10 +5,9 @@ import Container, { Button, Content, Paragraph } from "./About.styled";
 
 const copy = [
   "Hello there, I’m Gabriel a versatile and excellence driven software engineer committed to building web and mobile products that are accessible, fault-tolerant, functional and user-centric.",
-  "My primary technical language for web and mobile cross-platform development is Javascript/Typescript with frameworks and tools including React, React Native, Next and Vue. I also have experience building and contribution to backend projects with NodeJS, Express.",
+  "My primary technical language for web and mobile cross-platform development is Javascript/Typescript with frameworks and tools including React, React Native, Next and Vue. I also have experience working on backend projects with NodeJS, Express.",
   "For style presentation on the web I make use of frontend libraries  including but not limited to CSS/SCSS, Styled Components and TailwindCSS.",
   "I write tests for my code so as to increase code confidence and reduce debugging times by using Typescript for static testing, and React Testing Library/Jest for the testing of components and their functionalities in React. I have also taken to time to learn about QA testing strategies in order to become a more well rounded software engineer and to be able to write better tests for my code.",
-  "More recently, I have been exploring the world of mobile development with React Native and Flutter, and I am excited about the possibilities that these technologies offer for creating cross-platform applications and I am currently working as a volunteer on a mobile app project built with React Native.",
   "Currently searching for opportunities that would challenge me and allow me to grow as a software engineer, I am open to working in a remote or hybrid setting. I am also open to working in a team or independently.",
 ];
 

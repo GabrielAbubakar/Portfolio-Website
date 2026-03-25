@@ -21,6 +21,36 @@ const CTAButton = styled.a`
     }
 `;
 
+const SlideshowContainer = styled.div`
+    display: flex;
+    width: 100%;
+    height: 450px;
+    gap: 15px;
+
+    @media (max-width: 768px) {
+        height: 400px;
+    }
+
+    @media (max-width: 480px) {
+        height: 350px;
+    }
+`;
+
+const SingleImageContainer = styled.div`
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+    @media (max-width: 768px) {
+        height: 450px;
+    }
+
+    @media (max-width: 480px) {
+        height: 400px;
+    }
+`;
+
+
 
 interface ProjectProps {
     link?: string,
@@ -103,7 +133,7 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                 onMouseLeave={() => setIsHovered(false)}
             >
                 {isArray ? (
-                    <div style={{ display: 'flex', width: '100%', height: '350px', gap: '15px' }}>
+                    <SlideshowContainer>
                         {Array.from({ length: itemsPerSlide }).map((_, i) => (
                             <div key={i} style={{ position: 'relative', width: `${100 / itemsPerSlide}%`, height: '100%' }}>
                                 <Image 
@@ -114,11 +144,11 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                                 />
                             </div>
                         ))}
-                    </div>
+                    </SlideshowContainer>
                 ) : (
-                    <div style={{ position: 'relative', width: '100%', height: '400px' }}>
+                    <SingleImageContainer>
                         <Image src={currentImage as any} alt={alt} layout="fill" objectFit="contain" />
-                    </div>
+                    </SingleImageContainer>
                 )}
                 {isArray && (
                     <div style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '8px', zIndex: 10 }}>
