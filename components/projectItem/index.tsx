@@ -24,7 +24,7 @@ const CTAButton = styled.a`
 
 interface ProjectProps {
     link?: string,
-    image: StaticImageData | StaticImageData[],
+    image: string | string[] | StaticImageData | StaticImageData[],
     alt: string,
     title: string,
     details: string,
@@ -55,7 +55,7 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
         if (!isArray || isHovered) return;
         const interval = setInterval(() => {
             setCurrentIndex((prev) => {
-                const arr = image as StaticImageData[];
+                const arr = image as any;
                 const nextIndex = prev + itemsPerSlide;
                 return nextIndex >= arr.length ? 0 : nextIndex;
             });
@@ -63,7 +63,7 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
         return () => clearInterval(interval);
     }, [image, isArray, isHovered, itemsPerSlide]);
 
-    const currentImage = isArray ? (image as StaticImageData[])[currentIndex] : image as StaticImageData;
+    const currentImage = isArray ? (image as any)[currentIndex] : image as any;
 
     const itemVariant = {
         hidden: { opacity: 0, x: 100, },
@@ -107,9 +107,8 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                         {Array.from({ length: itemsPerSlide }).map((_, i) => (
                             <div key={i} style={{ position: 'relative', width: `${100 / itemsPerSlide}%`, height: '100%' }}>
                                 <Image 
-                                    src={(image as StaticImageData[])[(currentIndex + i) % (image as StaticImageData[]).length]} 
+                                    src={(image as any)[(currentIndex + i) % (image as any).length]} 
                                     alt={alt} 
-                                    placeholder="blur" 
                                     layout="fill"
                                     objectFit="contain"
                                 />
@@ -117,7 +116,9 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                         ))}
                     </div>
                 ) : (
-                    <Image src={currentImage} alt={alt} placeholder="blur" />
+                    <div style={{ position: 'relative', width: '100%', height: '400px' }}>
+                        <Image src={currentImage as any} alt={alt} layout="fill" objectFit="contain" />
+                    </div>
                 )}
                 {isArray && (
                     <div style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '8px', zIndex: 10 }}>

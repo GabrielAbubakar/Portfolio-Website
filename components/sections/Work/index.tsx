@@ -8,7 +8,7 @@ import {
     // ProjectContainer
 } from './Work.styled'
 import ProjectItem from '../../projectItem'
-import { projects } from './projects'
+import projects from '../../../projects.json'
 import { DisabledButton, MoreButton, TabsButton, TabsRow } from './components.styled'
 
 const Work: React.FunctionComponent = () => {
