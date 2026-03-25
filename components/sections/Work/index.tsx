@@ -12,7 +12,7 @@ import { projects } from './projects'
 import { DisabledButton, MoreButton, TabsButton, TabsRow } from './components.styled'
 
 const Work: React.FunctionComponent = () => {
-    const [activeCategory, setActiveCategory] = useState('frontend')
+    const [activeCategory, setActiveCategory] = useState('mobile')
     const [displayProjects, setDisplayProjects] = useState(projects.filter(item => item.platform == activeCategory))
     const [visibleCount, setVisibleCount] = useState(4)
 
@@ -85,11 +85,7 @@ const Work: React.FunctionComponent = () => {
 
             <TabsRow>
                 {
-                    visibleCount >= displayProjects.length == true ? (
-                        <DisabledButton disabled>
-                            No More Projects
-                        </DisabledButton>
-                    ) : (
+                    visibleCount < displayProjects.length && (
                         <MoreButton onClick={() => setVisibleCount((prevCount) => prevCount + 2)}>
                             View More
                         </MoreButton>

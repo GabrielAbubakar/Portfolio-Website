@@ -11,9 +11,31 @@ import Loop from '../../../public/assets/Loopstudios.jpeg'
 import Mdundo from '../../../public/assets/1920Mdundo.png'
 import Eloni from '../../../public/assets/Eloni.png'
 
+import Dropwash1 from '../../../public/assets/Dropwash-1.jpeg'
+import Dropwash2 from '../../../public/assets/Dropwash-2.jpeg'
+import Dropwash3 from '../../../public/assets/Dropwash-3.jpeg'
+import Dropwash4 from '../../../public/assets/Dropwash-4.jpeg'
+import Dropwash5 from '../../../public/assets/Dropwash-5.jpeg'
+import Dropwash6 from '../../../public/assets/Dropwash-6.jpeg'
+import Dropwash7 from '../../../public/assets/Dropwash-7.jpeg'
+import Dropwash8 from '../../../public/assets/Dropwash-8.jpeg'
+import Dropwash9 from '../../../public/assets/Dropwash-9.jpeg'
+import Dropwash10 from '../../../public/assets/Dropwash-10.jpeg'
+import Dropwash11 from '../../../public/assets/Dropwash-11.jpeg'
+import Dropwash12 from '../../../public/assets/Dropwash-12.jpeg'
+import Dropwash13 from '../../../public/assets/Dropwash-13.jpeg'
 
 
 export const projects = [
+    {
+        name: "Dropwash",
+        link: "https://getdropwash.com/",
+        stack: ["Mobile"],
+        description: "A mobile marketplace for laundry services or houses. Making user of native mobile features with Expo React Native, push notifications, and other features to create a seamless user experience.",
+        imgSrc: [Dropwash1, Dropwash2, Dropwash3, Dropwash4, Dropwash5, Dropwash6, Dropwash7, Dropwash8, Dropwash9, Dropwash10, Dropwash11, Dropwash12, Dropwash13],
+        platform: "mobile",
+        color: "darkblue"
+    },
     {
         name: "Mdundo For Brands",
         link: "https://mdundoforbrands.netlify.app/",

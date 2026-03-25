@@ -106,6 +106,10 @@ export const ProjectBox = styled(motion.div)`
                 return css`
                     background: linear-gradient(90deg, rgb(231, 240, 253) 0%, rgb(172, 203, 238) 100%);
                 `
+            case 'darkblue':
+                return css`
+                    background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
+                `
             default:
                 return css`
                     background: linear-gradient(90deg, rgb(243, 231, 233) 0%, rgb(227, 238, 255) 99%, rgb(227, 238, 255) 100%);
@@ -139,6 +143,10 @@ export const ProjectBox = styled(motion.div)`
             case 'skyblue':
                 return css`
                     box-shadow: 0 0 2rem  rgb(172, 203, 238);
+                `
+            case 'darkblue':
+                return css`
+                    box-shadow: 0 0 2rem  #243b55;
                 `
             default:
                 return css`
