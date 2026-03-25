@@ -110,8 +110,8 @@ const ProjectItem = ({ link, image, alt, title, details, color }: ProjectProps) 
                                     src={(image as StaticImageData[])[(currentIndex + i) % (image as StaticImageData[]).length]} 
                                     alt={alt} 
                                     placeholder="blur" 
-                                    layout="fill"
-                                    objectFit="contain"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
                                 />
                             </div>
                         ))}

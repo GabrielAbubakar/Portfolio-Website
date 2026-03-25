@@ -14,6 +14,8 @@ export const dark = {
         // button colors
         buttonText: "#fff",
         buttonBack: "rgb(86, 134, 145, .1)",
+        buttonBackground: "#5686F5", // primary for dark
+        buttonStroke: "#E8E8FD", // headerText for dark
     },
 };
 
@@ -33,6 +35,8 @@ export const light = {
         // button colors
         buttonText: "#fff",
         buttonBack: "rgb(86, 134, 145, .1)",
+        buttonBackground: "#0e52f1", // primary for light
+        buttonStroke: "#04052F", // headerText for light
     },
 };
 
