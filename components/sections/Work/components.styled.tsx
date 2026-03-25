@@ -21,7 +21,7 @@ const TabsButton = styled.h3<{ activeCat: string, cat: string }>`
         color: ${(props) => props.theme.colors.bodyText};
     }
 
-    &:first-of-type {
+    &:not(:last-child) {
         border-right: 2px solid ${(props) => props.theme.colors.bodyText};
     }
 `

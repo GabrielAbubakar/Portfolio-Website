@@ -5,7 +5,7 @@ import { devices } from "../styled/mediaqueries/device";
 
 const StyledNavbar = styled(motion.nav)`
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     padding: 2.8rem 0;
     color: ${props => props.theme.colors.bodyText};
     /* font-family: 'Montserrat', sans-serif; */

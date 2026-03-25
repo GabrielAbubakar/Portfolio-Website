@@ -29,6 +29,15 @@ const Work: React.FunctionComponent = () => {
             <Header>Work.</Header>
 
             <TabsRow>
+                 <TabsButton
+                    cat='mobile'
+                    activeCat={activeCategory}
+                    onClick={() => {
+                        setActiveCategory('mobile')
+                        setVisibleCount(4)
+                    }}>
+                    mobile
+                </TabsButton>
                 <TabsButton
                     cat='frontend'
                     activeCat={activeCategory}
