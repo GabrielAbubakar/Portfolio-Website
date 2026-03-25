@@ -2,5 +2,11 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  # Next.js 12 works best with Node 16 or 18 on Netlify
+  NODE_VERSION = "18"
+  # This tells the plugin to skip some newer checks that fail on older Next versions
+  NEXT_FORCE_EDGE_IMAGES = "false"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
