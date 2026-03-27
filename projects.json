@@ -23,6 +23,15 @@
         "color": "darkblue"
     },
     {
+        "name": "OptivaHR",
+        "link": "https://www.linkedin.com/company/optivahr/",
+        "stack": ["NextJS", "React"],
+        "description": "Candidate Relationship Management (CRM) software for recruiters and hiring managers. Enables users to manage candidates, track their progress, and streamline the hiring process.",
+        "imgSrc": "/assets/Optiva.png",
+        "platform": "frontend",
+        "color": "darkblue"
+    },
+    {
         "name": "Mdundo For Brands",
         "link": "https://mdundoforbrands.netlify.app/",
         "stack": ["NextJS", "React"],
@@ -57,24 +66,6 @@
         "imgSrc": "/assets/1920LearnLaw.png",
         "platform": "frontend",
         "color": "darkpink"
-    },
-    {
-        "name": "Crypto Time Travel",
-        "link": "https://crypto-time-travel.vercel.app/",
-        "stack": ["NextJS", "React"],
-        "description": "Made with NextJS, TailwindCSS and the CoinGecko API. Feeds a user calculated results based on their input and information from the crypto market api.",
-        "imgSrc": "/assets/1920Crypto.png",
-        "platform": "frontend",
-        "color": "greypink"
-    },
-    {
-        "name": "Todo App Tracker",
-        "link": "https://todoapptracker.netlify.app/",
-        "stack": ["React"],
-        "description": "Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh",
-        "imgSrc": "/assets/1920Todo.png",
-        "platform": "frontend",
-        "color": "skyblue"
     },
     {
         "name": "Gabriel's Smoothies",
